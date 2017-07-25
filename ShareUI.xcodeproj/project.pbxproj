@@ -13,6 +13,11 @@
 		04DC58E81F26EE9100896E1F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04DC58E61F26EE9100896E1F /* Main.storyboard */; };
 		04DC58EA1F26EE9100896E1F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04DC58E91F26EE9100896E1F /* Assets.xcassets */; };
 		04DC58ED1F26EE9100896E1F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04DC58EB1F26EE9100896E1F /* LaunchScreen.storyboard */; };
+		04DC59961F26F17500896E1F /* ShareUIView.m in Sources */ = {isa = PBXBuildFile; fileRef = 04DC598E1F26F17500896E1F /* ShareUIView.m */; };
+		04DC59971F26F17500896E1F /* ShareUITableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 04DC59901F26F17500896E1F /* ShareUITableViewCell.m */; };
+		04DC59981F26F17500896E1F /* ShareUICollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 04DC59921F26F17500896E1F /* ShareUICollectionViewCell.m */; };
+		04DC59991F26F17500896E1F /* ShareUICollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04DC59931F26F17500896E1F /* ShareUICollectionViewCell.xib */; };
+		04DC599A1F26F17500896E1F /* ShareUIModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 04DC59951F26F17500896E1F /* ShareUIModel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +31,15 @@
 		04DC58E91F26EE9100896E1F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		04DC58EC1F26EE9100896E1F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		04DC58EE1F26EE9100896E1F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04DC598D1F26F17500896E1F /* ShareUIView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShareUIView.h; sourceTree = "<group>"; };
+		04DC598E1F26F17500896E1F /* ShareUIView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShareUIView.m; sourceTree = "<group>"; };
+		04DC598F1F26F17500896E1F /* ShareUITableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShareUITableViewCell.h; sourceTree = "<group>"; };
+		04DC59901F26F17500896E1F /* ShareUITableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShareUITableViewCell.m; sourceTree = "<group>"; };
+		04DC59911F26F17500896E1F /* ShareUICollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShareUICollectionViewCell.h; sourceTree = "<group>"; };
+		04DC59921F26F17500896E1F /* ShareUICollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShareUICollectionViewCell.m; sourceTree = "<group>"; };
+		04DC59931F26F17500896E1F /* ShareUICollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ShareUICollectionViewCell.xib; sourceTree = "<group>"; };
+		04DC59941F26F17500896E1F /* ShareUIModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShareUIModel.h; sourceTree = "<group>"; };
+		04DC59951F26F17500896E1F /* ShareUIModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShareUIModel.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +72,16 @@
 		04DC58DC1F26EE9100896E1F /* ShareUI */ = {
 			isa = PBXGroup;
 			children = (
+				04DC598D1F26F17500896E1F /* ShareUIView.h */,
+				04DC598E1F26F17500896E1F /* ShareUIView.m */,
+				04DC598F1F26F17500896E1F /* ShareUITableViewCell.h */,
+				04DC59901F26F17500896E1F /* ShareUITableViewCell.m */,
+				04DC59911F26F17500896E1F /* ShareUICollectionViewCell.h */,
+				04DC59921F26F17500896E1F /* ShareUICollectionViewCell.m */,
+				04DC59931F26F17500896E1F /* ShareUICollectionViewCell.xib */,
+				04DC59941F26F17500896E1F /* ShareUIModel.h */,
+				04DC59951F26F17500896E1F /* ShareUIModel.m */,
+				04DC597E1F26EF9100896E1F /* ShareUIView */,
 				04DC58E01F26EE9100896E1F /* AppDelegate.h */,
 				04DC58E11F26EE9100896E1F /* AppDelegate.m */,
 				04DC58E31F26EE9100896E1F /* ViewController.h */,
@@ -77,6 +101,13 @@
 				04DC58DE1F26EE9100896E1F /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		04DC597E1F26EF9100896E1F /* ShareUIView */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = ShareUIView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -139,6 +170,7 @@
 			files = (
 				04DC58ED1F26EE9100896E1F /* LaunchScreen.storyboard in Resources */,
 				04DC58EA1F26EE9100896E1F /* Assets.xcassets in Resources */,
+				04DC59991F26F17500896E1F /* ShareUICollectionViewCell.xib in Resources */,
 				04DC58E81F26EE9100896E1F /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -150,8 +182,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04DC59961F26F17500896E1F /* ShareUIView.m in Sources */,
 				04DC58E51F26EE9100896E1F /* ViewController.m in Sources */,
+				04DC599A1F26F17500896E1F /* ShareUIModel.m in Sources */,
+				04DC59971F26F17500896E1F /* ShareUITableViewCell.m in Sources */,
 				04DC58E21F26EE9100896E1F /* AppDelegate.m in Sources */,
+				04DC59981F26F17500896E1F /* ShareUICollectionViewCell.m in Sources */,
 				04DC58DF1F26EE9100896E1F /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
